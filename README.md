@@ -1,8 +1,11 @@
 SQL_Project1 – Retail Sales Analysis
+
 📌 Project Overview
+
 This project involves performing end-to-end data analysis using SQL on a fictional retail sales dataset. The objective is to clean, explore, and analyze the data to uncover key business insights that can help decision-makers improve performance in areas such as sales strategy, customer targeting, inventory planning, and operational efficiency.
 
 🎯 Project Goals
+
 •		Create and manage a retail sales database using SQL.
 
 •		Clean and prepare data for analysis (e.g., handling NULLs).
@@ -22,32 +25,54 @@ This project involves performing end-to-end data analysis using SQL on a fiction
 •		Groupings and Aggregations: To summarize performance metrics by category, customer, time, etc.
 
 📁 Dataset Description
+
 •		The retail_sales table contains transaction-level data with the following fields:
+
 •		transactions_id: Unique identifier for each transaction
+
 •		sale_date and sale_time: Timestamp of the sale
+
 •		customer_id: ID of the customer making the purchase
+
 •		gender and age: Demographic information
+
 •		category: Product category (e.g., Clothing, Beauty, etc.)
+
 •		quantity: Number of items purchased
+
 •		price_per_unit: Cost per item
-•		cogs: Cost of goods sold
+
 •		total_sale: Final transaction amount
 
+
 📊 Key Deliverables
+
 •		Database and table setup with appropriate schema.
+
 •		Data cleaning operations to remove or correct invalid records.
+
 •		Exploratory queries to understand the shape and scale of the data.
+
 •		Business problem-solving using real-world retail scenarios:
+
 •		Top-selling products and categories
+
 •		Peak sales periods and shiftsHigh-value customersCustomer segmentation by gender, age, and category
+
 •		Summarized insights to help guide business decisions.
+
 
 📈 Outcome
 By the end of this project, we have:
+
 •		A fully functional retail sales database.
+
 •		Clear and concise SQL queries answering 10 business questions.
+
 •		Practical insights about sales performance, customer behavior, and product trends.
+
 •		Reusable SQL logic for similar retail or transaction-based datasets.
+
 
 -- SQL Retail Sales Analysis - P1
 1.  Database Creation
