@@ -1,9 +1,14 @@
 # SQL_Project1
 
 -- SQL Retail Sales Analysis - P1
+1.  Database Creation
+Created a new database named: sql_project_p2
 Create database sql_project_p2;
 
--- Create Table
+
+2. 2. Table Setup
+Table: retail_sales
+Includes fields like transactions_id, sale_date, sale_time, customer_id, gender, category, quantity, price_per_unit, cogs, and total_sale.
 ```sql
 DROP TABLE IF EXISTS retail_sales;
 CREATE TABLE retail_sales(
@@ -24,13 +29,10 @@ CREATE TABLE retail_sales(
 SELECT *
 FROM retail_sales;
 ```
---COUNT rows
-SELECT COUNT(*)
-FROM retail_sales;
+3. Data Cleaning
+Checked for NULL values in transactions_id and other key columns.
+Removed all rows where essential fields were NULL.
 
--- DATA CLEANING
-
--- checking if there is NULL values in transactions_id column
 ```sql
 SELECT *
 FROM retail_sales
@@ -61,7 +63,7 @@ OR quantity IS NULL
 OR cogs IS NULL
 OR total_sale IS NULL;
 
--- DATA EXPLORATION
+4. DATA EXPLORATION
 
 -- 1. How many sales we have?
 ``` sql
@@ -76,7 +78,7 @@ FROM retail_sales;
 SELECT DISTINCT category
 FROM retail_sales
 ```
--- DATA ANALYSIS and BUSINESS KEY PROBLEMS and ANSWERS
+5. DATA ANALYSIS and BUSINESS KEY PROBLEMS and ANSWERS
 
 -- Question 1. Write a SQL query to retrieve all columns for sales made on 2022-11-05
 ``` sql
