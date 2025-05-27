@@ -18,11 +18,17 @@ This project involves performing end-to-end data analysis using SQL on a fiction
 
 🧰 Tools & Techniques Used
 •		SQL Database (PostgreSQL or compatible system)
+
 •		DDL & DML commands: To create tables and manage data.
+
 •		Data Cleaning: Handled missing values to ensure data integrity.
+
 •		Analytical Functions: Used RANK(), EXTRACT(), COUNT(), AVG(), SUM() etc.
+
 •		Common Table Expressions (CTEs): Used for modular and readable query structures.
+
 •		Groupings and Aggregations: To summarize performance metrics by category, customer, time, etc.
+
 
 📁 Dataset Description
 
