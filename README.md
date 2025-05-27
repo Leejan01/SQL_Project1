@@ -4,9 +4,13 @@ This project involves performing end-to-end data analysis using SQL on a fiction
 
 🎯 Project Goals
 •	Create and manage a retail sales database using SQL.
+
 •	Clean and prepare data for analysis (e.g., handling NULLs).
+
 •	Explore key metrics such as sales volume, customer count, and product categories.
+
 •	Analyze trends in sales performance, customer behavior, and product demand.
+
 •	Answer business-critical questions through SQL queries using functions, aggregations, filters, window functions, and CTEs.
 
 🧰 Tools & Techniques Used
