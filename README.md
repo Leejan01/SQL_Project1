@@ -77,6 +77,7 @@ SELECT DISTINCT category
 FROM retail_sales
 ```
 -- DATA ANALYSIS and BUSINESS KEY PROBLEMS and ANSWERS
+
 -- Question 1. Write a SQL query to retrieve all columns for sales made on 2022-11-05
 ``` sql
 SELECT *
