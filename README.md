@@ -3,10 +3,12 @@
 -- SQL Retail Sales Analysis - P1
 1.  Database Creation
 Created a new database named: sql_project_p2
+```sql
 Create database sql_project_p2;
+```
 
 
-2. 2. Table Setup
+ 2. Table Setup
 Table: retail_sales
 Includes fields like transactions_id, sale_date, sale_time, customer_id, gender, category, quantity, price_per_unit, cogs, and total_sale.
 ```sql
