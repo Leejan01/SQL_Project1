@@ -40,8 +40,6 @@ SELECT *
 FROM retail_sales
 WHERE transactions_id IS NULL;
 ```
-
--- checking if there is NULL values in all column
 ```sql
 SELECT *
 FROM retail_sales
@@ -54,7 +52,7 @@ OR quantity IS NULL
 OR cogs IS NULL
 OR total_sale IS NULL;
 ```
-
+```sql
 DELETE FROM retail_sales
 WHERE transactions_id IS NULL
 OR sale_date IS NULL
@@ -64,7 +62,7 @@ OR category IS NULL
 OR quantity IS NULL
 OR cogs IS NULL
 OR total_sale IS NULL;
-
+```
 4. DATA EXPLORATION
 
 -- 1. How many sales we have?
